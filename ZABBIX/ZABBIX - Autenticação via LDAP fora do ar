@@ -1,0 +1,10 @@
+ZABBIX - Autenticação via LDAP fora do ar
+
+Logar no PHPMYADMIN do zabbix e executar a seguinte query:
+
+   UPDATE 'zabbix'.'config' SET 'authentication_type' = '0' WHERE 'config'.'configid' = 1 LIMIT 1;
+
+O valor 0 neste campo indica que a autenticação é LOCAL (ou seja sem LDAP). O valor 1 indica LDAP.
+
+Para voltar (assim que o cabra do LDAP chegou e arrumou)  executei:
+   UPDATE `zabbix`.`config` SET `authentication_type` = ‘1’ WHERE `config`.`configid` = 1 LIMIT 1;

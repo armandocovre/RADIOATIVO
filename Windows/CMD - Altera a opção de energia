@@ -1,0 +1,14 @@
+altera a opção de energia
+powercfg -H off
+
+powercfg -X "Alto desempenho" -monitor-timeout-ac 0
+powercfg -X "Alto desempenho" -monitor-timeout-dc 0
+
+powercfg -X "Alto desempenho" -disk-timeout-ac 0
+powercfg -X "Alto desempenho" -disk-timeout-dc 0
+
+powercfg -X "Alto desempenho" -standby-timeout-ac 0
+powercfg -X "Alto desempenho" -standby-timeout-dc 0
+
+powercfg -X "Alto desempenho" -hibernate-timeout-ac 0
+powercfg -X "Alto desempenho" -hibernate-timeout-dc 0

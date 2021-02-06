@@ -1,0 +1,9 @@
+Executando .bat/.exe/.msi remotamente com PSEXEC
+
+psexec –u “user admin” –p “senha do admin” –D “\\server\pasta-compartilhada\arquivo.exe” cmd /c @c”:\scripts.txt” (enter) -H
+
+-u = usuário admin do dominio
+-p = senha do usuario admin do dominio
+-D = não travar o console
+@c:\scripts.txt = lista de referencia “Exemplo abaixo, pode-se usar o nome da maquina ou o IP”
+-H = não barra no UAC

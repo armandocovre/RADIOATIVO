@@ -1,0 +1,2 @@
+Verificar programas em maquinas remotas
+wmic /node:[MACHINE] product where "Vendor like '%microsoft%'"  get name,version,identifyingNumber

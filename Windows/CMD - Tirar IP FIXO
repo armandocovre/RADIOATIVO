@@ -1,0 +1,2 @@
+Tirar IP FIXO
+netsh interface ip set address name="Conexão Local" source=dhcp

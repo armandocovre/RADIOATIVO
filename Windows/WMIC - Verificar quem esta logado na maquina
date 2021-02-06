@@ -1,0 +1,3 @@
+Verificar quem esta logado na maquina
+
+wmic /node:[MACHINE] computersystem get username

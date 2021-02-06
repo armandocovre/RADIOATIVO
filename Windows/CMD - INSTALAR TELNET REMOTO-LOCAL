@@ -1,0 +1,2 @@
+INSTALAR TELNET REMOTO/LOCAL
+dism /online /Enable-Feature /FeatureName:TelnetClient

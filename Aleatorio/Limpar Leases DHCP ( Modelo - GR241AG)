@@ -1,0 +1,5 @@
+FiberGateway Meo – Limpar Leases DHCP ( Modelo -> GR241AG )
+Conectar via telnet
+/lan/dhcp/show
+Limpar a lista de leases / dispositivos
+/lan/dhcp/clear-leases --group-name=Default
