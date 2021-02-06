@@ -1,5 +1,14 @@
-Level 2
-ConsentPromptBehaviorAdmin 5 ; PromptOnSecureDesktop 0 ; EnableLUA 1
+@echo off
+REM 
+REM CRIAÇÃO
+REM AUTOR: ARMANDO COVRE
+REM DATA: 06 OUTUBRO 2020
+REM CONTATO: ARMANDOMOURACOVRRE@GMAIL.COM
+REM
+REM MODIFICAR NIVEL REGISTRO (REGEDIT); REM MODIFICA UAC - Windows 10, SEM ESMAECER
+REM PARA CORRIGIR PROBLEMA VIA REMOTO, AO PROCEDER ADMINISTRATIVO, TELA FICA PRETA (POPUP DE LOGIN E SENHA)
+REM Level 2 => ConsentPromptBehaviorAdmin 5 ; PromptOnSecureDesktop 0 ; EnableLUA 1
+REM SITE OFICIAL: https://docs.microsoft.com/en-us/windows/security/identity-protection/user-account-control/user-account-control-group-policy-and-registry-key-settings
 
 C:\Windows\System32\cmd.exe /k %windir%\System32\reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v ConsentPromptBehaviorAdmin /t REG_DWORD /d 5 /f
 C:\Windows\System32\cmd.exe /k %windir%\System32\reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v PromptOnSecureDesktop /t REG_DWORD /d 0 /f
