@@ -26,7 +26,7 @@
 	git add README.md
 	git commit -m "primeiro-comentario"
 	git branch -M branch-folder-master
-	git remote add origin https://github.com/username/folder.git
+	git remote add origin https://github.com/armandocovre/RADIOATIVO.git
 	git push -u origin branch-folder-master
 
 
@@ -35,7 +35,7 @@
 
 ## "Upload" dos arquivos para repositorio
 ### Terminal
-	git remote add origin https://github.com/username/folder.git
+	git remote add origin https://github.com/armandocovre/RADIOATIVO.git
 	git branch -M branch-folder-master
 	git push -u origin branch-folder-master
 
