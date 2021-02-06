@@ -26,7 +26,7 @@
 	git add README.md
 	git commit -m "primeiro-comentario"
 	git branch -M branch-folder-master
-	git remote add origin https://github.com/armandocovre/RADIOATIVO.git
+	git remote add origin https://github.com/user_name/repo.git
 	git push -u origin branch-folder-master
 
 
@@ -35,7 +35,7 @@
 
 ## "Upload" dos arquivos para repositorio
 ### Terminal
-	git remote add origin https://github.com/armandocovre/RADIOATIVO.git
+	git remote add origin https://github.com/user_name/repo.git
 	git branch -M branch-folder-master
 	git push -u origin branch-folder-master
 
@@ -75,3 +75,16 @@
 
 ###### Listar branches com informações dos últimos commits
 	git branch -v
+
+
+##### Apagando um branch
+	git branch -D branch-folder
+
+
+
+
+Your members will have to manually update their local environments. We'll let them know when they visit the repository, or you can share these commands:
+
+git branch -m main <BRANCH>
+git fetch origin
+git branch -u origin/<BRANCH> <BRANCH>
