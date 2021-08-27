@@ -1,10 +1,9 @@
-## Instalar FusionInventory via Endpoint - Microsoft 365
+# Instalar FusionInventory via Endpoint - Microsoft 365
 
-### Script VBS irá fazer:
+## Script VBS irá fazer:
 * Download do Instalador do Fusion Inventory para Windows
 * Remoção do OCS Inventory Agent
 * Realiza instalação ou upgrade do Fusion Inventory
-
 
 
 ### FUSION INVENTORY + GLPI
