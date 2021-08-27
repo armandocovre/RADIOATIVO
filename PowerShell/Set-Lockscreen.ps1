@@ -8,7 +8,7 @@ $LockScreenUrl = "LockScreenImageUrl"
 $StatusValue = "1"
 
 
-$url = "https://manager.lmit.pt/wallpaper.png"
+$url = "https://noc.company.com/wallpaper.png"
 $LockScreenImageValue = "C:\Windows\wallpaper.png"
 $directory = "C:\Windows\"
 
